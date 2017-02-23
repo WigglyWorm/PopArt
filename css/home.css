@@ -3,70 +3,72 @@ background: #C33764; /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #C33764 , #1D2671); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #C33764 , #1D2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color: black; 
-font-family: 'Barrio', cursive;   
+font-family: 'Barrio', cursive;     
 }
 
 h1 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 4em;
 }
 
 .navbar-default {
-  text-align: center;
+	text-align: center;
 }
 .navbar-nav {
-  padding-left: 24%;
+	padding-left: 24%;
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 115%;
 }
 
+.row {
+	background: white;
+	padding: 2%;
+	margin-top: 1%;
+	margin-left: 12%;
+  margin-right: 12%;
+	border-radius: 1.875em 1.875em 1.875em 1.875em;
+	-moz-border-radius: 1.875em 1.875em 1.875em 1.875em;
+	-webkit-border-radius: 1.875em 1.875em 1.875em 1.875em;
+	border: 0px solid #000000;
+}
+
+
+p {
+	font-size: 2em;
+}
+
 ul li {
-  display: inline-block;
-  line-height: 6em;
+	display: inline-block;
+	line-height: 6em;
     letter-spacing: 0.2em;
     margin-right: 2em;
 }
 
-.row {
-  background: white;
-  padding: 2%;
-  margin-top: 1em;
-  margin-left: 12%;
-  margin-right: 12%;
-  border-radius: 30px 30px 30px 30px;
-  -moz-border-radius: 30px 30px 30px 30px;
-  -webkit-border-radius: 30px 30px 30px 30px;
-  border: 0px solid #000000;
-}
-
-.about-intro {
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-p {
-  font-size: 1em;
-  text-align: -webkit-auto;
-}
-
 img {
-  margin-right: 1.75em;
-  padding: 1em;
-  border: solid grey 1px;
-  -webkit-box-shadow: -12px 10px 5px 0px rgba(128,128,128,1);
+	padding: 1em;
+	border: solid grey 1px;
+	margin-top: 1em;
+	-webkit-box-shadow: -12px 10px 5px 0px rgba(128,128,128,1);
 -moz-box-shadow: -12px 10px 5px 0px rgba(128,128,128,1);
 box-shadow: -12px 10px 5px 0px rgba(128,128,128,1);
 }
 
-.test {
-  margin-top: 100px;
-  text-align: center;
-  margin-bottom: 2%;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.thumbnail {
+  border: none;
+}
 
+.test {
+  margin-top: 125px;
+  text-align: center;
+  margin-bottom: 5%;
+}
 .test a {
   color: #fff;
   background: black;
@@ -117,10 +119,11 @@ box-shadow: -12px 10px 5px 0px rgba(128,128,128,1);
   left: 40px;
 }
 
+
 .footer {
 	background: none;
 }
 .footer p {
 	float: left;
-  font-size: 0.6em;
+	font-size: 0.6em;
 }
